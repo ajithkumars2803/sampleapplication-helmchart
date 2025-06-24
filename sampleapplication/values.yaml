@@ -1,6 +1,6 @@
 image:
   repository: 160885263219.dkr.ecr.us-east-1.amazonaws.com/sampleapplication
-  tag: 042a68a003a4ae08920a1e6c3de4ab5810c89313 
+  tag: "18d2540caf6698c6cf790468367e546a0d0bfba0"
   pullPolicy: IfNotPresent
   imagePullSecrets: []
 
