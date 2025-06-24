@@ -1,0 +1,12 @@
+image:
+  repository: 160885263219.dkr.ecr.us-east-1.amazonaws.com/sampleapplication
+  tag: 042a68a003a4ae08920a1e6c3de4ab5810c89313 
+  pullPolicy: IfNotPresent
+  imagePullSecrets: []
+
+service:
+  type: LoadBalancer
+  port: 80
+  targetPort: 80
+
+containerPort: 80    
